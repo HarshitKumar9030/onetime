@@ -3,7 +3,7 @@ import styles from "./Logo.module.css";
 function Logo() {
   return (
     <h1 data-testid="logo" className={styles.logo}>
-      Onetime
+      Set ⏱️
     </h1>
   );
 }

@@ -8,7 +8,7 @@ import useNavigation from "../hooks/useNavigation";
 function HomeScreen() {
   const { navigateTimer } = useNavigation();
 
-  useDocumentTitle("Onetime");
+  useDocumentTitle("Timer");
 
   return (
     <ScreenWrapper>
